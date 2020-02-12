@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+/* base css file */
+body{margin: 0px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px;}
+label{display: inline-block;margin-bottom: 8px;font-weight: bold;margin-top: 8px;}
+.content{margin-top: 45px;}
+.dropdown-menu.dropdown-close.pull-right {left: auto;right: -5px;}
+.dropdown-menu.dropdown-close {top: 92%;left: -5px;}
+.dropdown-menu.pull-right {right: 0;left: auto;}
+.dropdown-menu {border-radius: 0!important;-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);box-shadow: 0 2px 4px rgba(0,0,0,0.2);}
+.profile-links{ font-size: 12px}
+	.profile-links .avatar{}
+	.profile-links .avatar img{ height: 30px}
+	.profile-links .avatar .profile-name{ height: 30px}
+.hide-elem{display:none}
+
+.form-signin {max-width: 330px;padding: 15px;margin: 0 auto;}
+	.form-signin .form-signin-heading, .form-signin .checkbox {margin-bottom: 10px;}
+	.form-signin input[type="text"] {margin-bottom: -1px;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+	.form-signin input[type="password"] {margin-bottom: 10px;border-top-left-radius: 0;border-top-right-radius: 0;}
+	.form-signin .form-control {position: relative;font-size: 16px;height: auto;padding: 10px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+	.form-signin .checkbox {margin-bottom: 10px;}
+	.form-signin .checkbox {font-weight: normal;}
+#waiting-div{float: left;margin: 15px auto;display: none;position: absolute;left: 50%;}
+#pop-message{position: fixed;top: 0;left: 0;width: 45%;z-index: 1032;margin: 9px 30%;text-align: center;display:none; padding-top: 8px;height: 34px;font-weight: bolder;text-shadow: 0px 0px 0px #5A5050;font-size: 14px;border-radius: 10px;}
+#pop-message .success{color: rgb(21, 209, 21);}
+#pop-message .error{color: rgb(182, 17, 17);}
+#pop-message .info{color:rgb(128, 160, 179);}
+#pop-message .warning{color:rgb(189, 157, 88);}
+
+.sheet-wrapper{padding: 10px;border: 1px solid #ccc;min-height: 500px;font-size: 10px}
+.sheet-wrapper table{ border: 1px solid #ccc;margin-top:5px }
+.sheet-wrapper table td{padding: 1px 10px;height: 17px}
+.sheet-wrapper table td.seperator{border: 0px}
+.sheet-wrapper table td.no-padding{padding: 0px}
+
+.sheet-wrapper table.no-margin{margin: -1px 0 0 0;border: none;border-collapse: collapse;}
+.sheet-wrapper table.no-margin td{border-bottom: 1px solid #ccc}
+.sheet-wrapper table.no-margin .mid-td-fix{border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.payment-list{margin:10px 5px }
+.draft-text{margin: 20px auto; border: 1px solid #ccc;padding: 2px;background: #EEE;}
+.profile-links{margin-right: 20px;padding-right: 30px;}
+.select.select2-container {padding: 0;}
+select.select {visibility: hidden;}
+.select.select2-container .select2-choice, .select2-choice {background-image: none;background-color: #fff;border-radius: 0;border: 1px solid #d9d9d9;border-bottom: 1px solid #d9d9d9;border-top-color: #c0c0c0;height: 30px;line-height: 28px;padding-left: 8px;color: #777;box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);}
+.select.select2-container .select2-choice .select2-chosen, .select2-choice .select2-chosen {margin-right: 30px;}
+.select.select2-container .select2-choice .select2-arrow, .select2-choice .select2-arrow {background: none;border: 0;width: 25px;}
+.select.select2-container .select2-choice .select2-arrow b, .select2-choice .select2-arrow b {background-image: url(../images/select2.png);background-position: 0 1px;}
+.select.select2-container .select2-choice, .select2-choice {line-height: 28px;color: #777;}
+.form-section{padding: 20px;background: #f5f5f5;}
+.button-row{padding: 10px 20px;background: #eee;}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {color: #c0392b;}
+.error-w .help-block {color: #c0392b;}
+.action-btn{background: url(../images/wait.gif) no-repeat -100px -100px #3498db;}
+.margin-row{margin-top: 5px}
+.rules-wrapper{padding-left:30px }
+.flag{height: 30px; width: 30px}
+.error{color:rgb(189, 39, 39)}
+.success{color:#368B15}
+.margined {margin: 10px 0;}
+#handler{}
+.dialog-large{width:800px!important}
+#handler .handler-row{padding: 3px;margin: 8px 4px 0px;}
+#handler .handler-row i{font-size: 20px;border: 3px solid #D5D3D3;border-radius: 25px;padding: 5px 6px;}
+.nav-menu {margin-top:80px }
+.v-m{vertical-align: middle!important;}
+#st-in-form-trigger{margin-top: 6px;}
+.user-list{}
+.user-list li{ padding: 4px; border: 1px solid #ccc;}

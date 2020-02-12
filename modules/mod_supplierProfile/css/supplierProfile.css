@@ -1,0 +1,235 @@
+#supplierNamesView {
+	position: relative;
+	width: 400px;
+	left: 300px;
+	min-height: 320px;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	border: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.supplierNames {
+	position: relative;
+	left: 100px;
+	font-size: 12px;
+	margin:2px!important;
+	width: 250px;
+	padding: 5px;border:1px solid #ccc;border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow:0px 0px 1px  #133783;
+}
+
+.supplierNames:hover {
+	color: #fff;
+	cursor: pointer;
+	background: #627AAD;
+	font-weight: bold;
+	
+}
+
+.imgDiv {
+	position: relative;
+	left: 80px;
+	top: 0px;
+	float: left;
+}
+
+#supplierProfile {
+	position: relative;
+	width: 990px;
+	
+	min-height: 320px;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	border: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: none;
+	margin-bottom: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#supplierProfile h2{
+	position: relative;
+left: 0px;
+background-color: #627AAD;
+text-align: center;
+color: #fff;
+font-size: 18px;
+line-height: 31px;
+}
+
+
+
+
+.trValidater {
+	padding: 0;
+	margin: 0;
+	height: 30px;
+	font-size: 14px;
+}
+
+
+#centerView {
+	position: relative;
+	top: -275px;
+	left: 460px;
+	font-size: 14px;
+	width: 530px;
+	height: auto;
+}
+
+ul#centerDiv {
+	position: relative;
+	height: auto;
+}
+
+ul#centerDiv li {
+	text-align: left;
+	float: left;
+	list-style: none;
+	height: 23px;
+	width: 142px;
+	padding-right: 10px;
+}
+
+ul {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#gradeDiv {
+	position: relative;
+	z-index: 10;
+}
+
+#subGrade {
+	position: relative;
+	z-index: 11
+}
+
+.tdClass {
+	border: 1px solid #627AAD;
+	text-align: center;
+}
+
+.head {
+	background: #627AAD;
+	color: #fff
+}
+
+#graphArea {
+	position: relative;
+	top: 10px
+}
+
+#detailsArea {
+	border: 1px solid #ccc;
+height: 160px;
+	
+}
+
+
+#detailsArea  .profPic {
+	position: relative;
+border: 1px solid rgb(219, 212, 212);
+width: 65px;
+top: 9px;
+left: 5px;
+float: left;
+margin: 4px;
+}
+
+#detailsArea  .details{
+float: left;
+padding: 4px;
+margin-left: 8px;}
+
+#detailsArea .centerName{
+	float: left;width: 530px; display: block;height:160px;overflow-y:scroll
+}
+#detailsArea .centerView{
+	
+}
+#graph2 {
+	position: relative;
+	z-index: 20000;
+	width: 980px;
+	
+	border: 1px solid #ccc;
+	padding: 5px;
+
+}
+
+#graph3 {
+	position: relative;
+	z-index: 20000;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+
+#graph1 {
+	position: relative;
+	z-index: 20000;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+
+hr {
+	height: 2px;
+	background: #627AAD
+}
+
+#backButton {
+	float: right;
+	margin: 2px;padding: 2px 27px;
+}
+
+
+#innerDiv {
+	background: #ccc;
+	width: 150px;
+	height: 25px;
+}
+
+.dropDownMenu {
+	display: none;
+	position: relative;
+	left:120px;
+	padding: 1px;
+	border : 1px solid #ccc;
+	margin-bottom: 10px;
+	width:120px;
+	 
+}
+
+.supplier-list{padding: 5px 20px;}
+.supplier-list .supplier-name{
+	font-weight: bold;
+color: rgb(41, 144, 224);
+cursor: pointer;
+}
+.supplier-list .handlers{margin-right: 10px}
+
+.supplier-list .details{ display: none}
+
+
+
+

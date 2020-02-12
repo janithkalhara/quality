@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+#pattern-viewer-container{ min-height: 350px; width: 99%;position: relative;border: 1px solid #ccc;padding: 5px}
+#pattern-viewer-container h4{ font: 15px bolder;color: #3B5998;font-weight:bold; margin: 4px; font-family:Tahoma, Geneva, sans-serif;background: #E1E1E1;padding: 5px 10px 5px 20px}
+#pattern-viewer-container #table1{ width:60%}
+#plan-pattern-viewer{position: relative;margin:10px 0px}
+#plan-pattern-viewer #plan-table{}
+#plan-pattern-viewer #plan-table td{height: 25px}
+#plan-pattern-viewer #plan-table td.header{font-weight: bold;height: 25px; background: #ccc}
+#revision-pattern-viewer{max-height:500px;overflow: scroll;}
+#revision-pattern-viewer table{margin: 10px 0 10px 0}
+#revision-pattern-viewer table td.header{font-weight: bold;height: 25px; background: #ccc}
+#revision-pattern-viewer table td{height:20px}
+#revision-pattern-viewer legend{border:1px solid #3B5998;color:#3B5998;padding: 5px;margin: 4px;}
+#revision-pattern-viewer fieldset{border:1px solid #3B5998;margin: 4px}
+#graph-pattern-viewer{border:1px solid #3B5998;margin: 25px 0px 10px 0px;position:relative;height:auto}
+#tentaive-wrapper{min-height: 300px}
+#selection-area{}
+#selection-area .button{padding: 5px 10px 5px 10px; background: #3B5998 ; color: #fff; height: 30px}
+#wrapper-tentReport{height: 900px}
+#wrapper-tentReport table{}
+#wrapper-tentReport table td.header{font-size: 11px ;font-weight: bold;}
+#print-toobar{position: relative;float:right;width:155px;height: 25px; background:  #ccc;top:-10px;right:0px; border: 2px outset #3B5998;border-radius:13px;-moz-border-radius:13px;-webkit-border-radius:13px;background-position:5px 0px 5px 5px;cursor: pointer;}
+#print-toobar-tentative{position: relative;float:right;width:155px;height: 25px; background:  #ccc;top:-10px;right:0px; border: 2px outset #3B5998;border-radius:13px;-moz-border-radius:13px;-webkit-border-radius:13px;background-position:5px 0px 5px 5px;cursor: pointer;}
+#print-toobar-tentative p{padding: 4px 0px 4px 35px;font-weight: bold; background: url("../images/printer.png") no-repeat}
+#print-toobar p{padding: 4px 0px 4px 35px;font-weight: bold; background: url("../images/printer.png") no-repeat}
+#patternWrapper{min-height: 300px}
+#patternWrapper .button{padding: 5px 10px 5px 10px; background: #3B5998 ; color: #fff; height: 30px}
+input.button{padding: 5px 10px 5px 10px; background: #3B5998 ; color: #fff; height: 30px}
+#chart-data-table table td.header{font-size: 11px ;font-weight: bold;}
+#graph-pattern-viewer-wrapper{}
+#graph-pattern-viewer-wrapper legend{border:1px solid #3B5998;color:#3B5998;padding: 5px;margin: 4px;}
+#chart-data-table{}
+#chart-data-table td.header{background: #ccc}
+#print-toobar-forecast{position: relative;float:right;width:155px;height: 25px; background:  #ccc;top:10px;right:0px; border: 2px outset #3B5998;border-radius:13px;-moz-border-radius:13px;-webkit-border-radius:13px;background-position:5px 0px 5px 5px;cursor: pointer;}
+#print-toobar-forecast p{padding: 4px 0px 4px 35px;font-weight: bold; background: url("../images/printer.png") no-repeat}
+#print-toobar-forecasttotal{position: relative;float:right;width:155px;height: 25px; background:  #ccc;top:10px;right:0px; border: 2px outset #3B5998;border-radius:13px;-moz-border-radius:13px;-webkit-border-radius:13px;background-position:5px 0px 5px 5px;cursor: pointer;}
+#print-toobar-forecasttotal p{padding: 4px 0px 4px 35px;font-weight: bold; background: url("../images/printer.png") no-repeat}

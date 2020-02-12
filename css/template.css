@@ -1,0 +1,175 @@
+body{background:url(../images/backgrounds/bg_2.jpg) fixed ;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#19130D;height:auto;overflow:scroll;margin:0;padding:0}
+h1,h2{font-size:1.6em; }
+h3{;font-family:Arial, Helvetica, sans-serif;color:#fff;background-color:rgb(250, 247, 247);;padding:1px 10px}
+h1 .special{color:#600;font-size:.6em}
+p,ul,ol{margin-top:0;line-height:100%}
+a{text-decoration:none;color:#570008}
+input[type='text']{color:#001;font-size:12px;font-weight:400;height:20px;padding:3px;border:1px solid #ccc}
+#sliderContainer > #animateDiv1 .datatable-sum input{background:#fff;height:18px;color:#333;font-size:14px;font-weight:700;padding:0}
+#sliderContainer > #animateDiv4 .datatable-sum input{
+	background:#fff;
+	color:#333;
+	height:18px;
+	font-size:14px;
+	font-weight:700;
+	padding:3px;
+	border: 1px solid #ccc;
+	}
+select{padding:4px}
+
+.tbl{
+	width: 100%; 
+	
+}
+.tbl td{
+	padding: 4px;
+	
+}
+
+#wrapper{width:1000px;background:#fff;border-left:5px solid #999;border-right:5px solid #999;-webkit-box-shadow:0 0 10px rgba(0,0,0,1.0);-moz-box-shadow:0 0 10px rgba(0,0,5px,1.0);box-shadow:0 0 10px rgba(0,0,5px,1.0);margin:0 auto;padding:5px}
+#header{width:1000px;height:94px;margin:0 auto}
+#logo{float:left;height:45px;width:630px;color:#FFF;border:1px solid #fff;background-color:#999;-webkit-box-shadow:0 0 10px rgba(0,0,0,1.0);-moz-box-shadow:0 0 10px rgba(0,0,5px,1.0);box-shadow:0 0 10px rgba(0,0,5px,1.0);margin:15px 1px 10px 0;padding:20px 5px 5px}
+#logo .head{font-size:22px;color:#111;position:relative;top:-15px;left:10px}
+
+.highlight{
+	
+	background: url(../images/highlight.png) no-repeat !important;
+	padding: 5px 5px 5px 20px;
+}
+.highlight-alert{
+    background: url(../images/icons/alert.png) no-repeat #FFF1A9 !important;
+    padding: 5px 5px 5px 35px;
+    color:#2E7DB2;height:30px;
+     border: 1px solid #ccc;
+}
+.highlight-error{
+	background: url(../images/icons/error.png) no-repeat #FFF1A9 !important;
+    padding: 5px 5px 5px 35px;
+    color:#2E7DB2;height:auto;
+     border: 1px solid #FF0000;
+}
+.highlight-highlight{
+    background: url(../images/icons/highlight.png) no-repeat #FFF1A9 !important;
+    padding: 5px 5px 5px 35px;
+    color:#2E7DB2;height:20px;
+    border: 1px solid #ccc;
+    
+}
+.highlight-warning{
+    background: url(../images/icons/warning.png) no-repeat #FFF1A9 !important;
+    padding: 5px 5px 5px 35px;
+    color:#2E7DB2;height:20px;
+     border: 1px solid #ccc;
+}
+
+
+
+#logo .view{font-size:14px;color:#fff;position:relative;top:-24px;left:0}
+
+#logo h1{float:left;letter-spacing:-1px;text-transform:lowercase;font-size:4.6em;color:#FFF}
+#logo h2.header{position:relative;font-size:24px;color:#FFF;margin: 0px;line-height: 29px;}
+#logo h3.slogan{float:left;position:relative;font-size:18px;top:10px;color:#360}
+
+#logo p{float:left;font:normal 14px Georgia, "Times New Roman", Times, serif;font-style:italic;margin:0;padding:30px 0 0 10px}
+#logo a{border:none;background:none;text-decoration:none;color:#FFF}
+#search{float:right;width:300px;height:110px;padding:0}
+#search form{height:41px;margin:0;padding:50px 0 0 20px}
+#search fieldset{border:none;margin:0;padding:0}
+#search-text{width:195px;border:1px solid #DEDEDE;background:#FFF;text-transform:lowercase;font:normal 11px Arial, Helvetica, sans-serif;color:#703522;padding:5px 5px 4px}
+#search-submit{width:50px;height:25px}
+#userPanel{position:relative;height:90px;width:350px;border:1px solid #ccc;float:right;margin-top:5px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);-moz-box-shadow:0 0 10px rgba(0,0,0,0.4);box-shadow:0 0 10px rgba(0,0,0,0.4)}
+#menu{width:980px;height:25px;background:#ccc;margin:5px auto;padding:10px}
+#menu ul{list-style:none;line-height:normal;float:left;padding:0}
+#menu li{float:left}
+#menu a{display:block;height:20px;border:none;text-decoration:none;text-transform:uppercase;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:400;color:#fff;background:#060;margin:3px 1px 4px;padding:2px 30px 7px}
+#menu a:hover,#menu .current_page_item a{background:#6C3}
+#menu .current_page_item a{padding-left:10px}
+#menu a:hover{text-decoration:none}
+#feedbackform{border:2px solid #666;-moz-box-shadow:0 0 8px #000;-webkit-box-shadow:0 0 8px #000;background:#fff;position:absolute;top:155px;left:600px;width:500px;padding:5px}
+#feedbackform h4{background:#CCC;width:415px;padding:5px}
+#feedbackform #closefeedbackform{position:relative;float:right;bottom:-20px}
+#page{width:1000px;height:auto;overflow:hidden;margin:0 auto;padding:20px 0 0}
+#content{float:right;width:760px;color:#000;border:1px solid #ccc;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;margin:0;padding:5px}
+#userCpanel{color:#000}
+#userCpanel ul.cpanelMenu .item{height:95px;width:85px;background:#fff;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;border:#000 1px solid;-webkit-box-shadow:0 0 10px rgba(0,0,200,0.4);-moz-box-shadow:0 0 10px rgba(0,0,200,0.4);box-shadow:0 0 10px rgba(0,0,200,0.4);margin:15px;padding:10px}
+#userCpanel ul.cpanelMenu li img{height:85px;margin:auto}
+.links{display:block;width:100px;height:20px;margin-top:20px;text-align:center;text-transform:uppercase;font-size:10px;font-weight:700}
+#sidebar{float:left;width:210px;border:1px solid #ccc;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;margin:0 3px 0 0;padding:5px}
+#sidebar ul{list-style:none;padding:0}
+#sidebar li ul{margin-bottom:30px;padding:0 20px 20px 0}
+#sidebar li li{line-height:35px;padding-left:3px;background:url(../images/img07.jpg) repeat-x left bottom}
+#sidebar li li span{display:block;margin-top:-20px;font-size:11px;font-style:italic;padding:0}
+#sidebar h2{margin-bottom:20px;letter-spacing:-1px;color:#FFF;padding:12px 0 0}
+#sidebar p{text-align:justify;color:#FFF;margin:0 0 20px;padding:10px 20px 20px 0}
+#sidebar a{color:#FFF}
+#sidebar a:hover{text-decoration:underline}
+#calendar_wrap{padding:20px}
+#calendar table{width:100%}
+#calendar tbody td{text-align:center}
+#calendar #next{text-align:right}
+#heyleysbox{position:absolute;border:3px solid #999;top:0;-webkit-box-shadow:0 0 15px #000;-moz-box-shadow:0 0 15px #000;background:#fff;padding:30px 40px 30px 10px}
+#footer-wrapper{height:80px;background:url(../images/img02.gif) repeat-x left top}
+#footer{width:1000px;height:70px;font-family:Arial, Helvetica, sans-serif;margin:0 auto;padding:0}
+#footer p{padding-top:40px;line-height:normal;text-align:center;text-transform:uppercase;font-size:10px;color:#BD5555;margin:0}
+#footer a{font-weight:700;color:#BD5555}
+.bg1{background:url(../images/img05.jpg) repeat-y left top}
+.bg2{background:url(../images/img04.jpg) no-repeat left top}
+.bg3{background:url(../images/img06.jpg) no-repeat left bottom}
+#sliderContainer > #animateDiv1 .datatablemain input,#sliderContainer > #animateDiv2 .datatablemain input,#sliderContainer > #animateDiv3 .datatablemain input,#sliderContainer > #animateDiv4 .datatablemain input{
+		
+	background:#fff;
+	color:#333;
+	font-size:12px;
+	padding:3px;width:43px}
+#sliderContainer > #animateDiv2 .datatable-sum input,#sliderContainer > #animateDiv3 .datatable-sum input{background:#fff;color:#333;height:18px;font-size:14px;font-weight:700;padding:0}
+#logo h1,#logo p,#sidebar li{margin:0;padding:0}
+#userCpanel ul.cpanelMenu,#userCpanel ul.cpanelMenu li{float:left;list-style-type:none}
+/*common s*/
+.hui-edit{
+	background: url("../images/icons/edit.png") no-repeat;
+	padding: 0px;
+	display:block;
+	float:left;
+	height: 18px;
+    width:18px;
+
+}
+.hui-next{
+    background: url("../images/icons/next.png")no-repeat;
+    padding: 0px;
+    float:left;
+    display:block;
+    height: 18px;
+    width:18px;
+
+}
+
+.hui-cancel{
+    background: url("../images/icons/cancel.png") no-repeat;
+    padding: 5px;
+    position: relative;
+    float: left;
+    height: 18px;
+    width:18px;
+
+}
+#waiting-div{
+position: absolute;background:#fff;
+width:70px;height:80px;z-index:1000000;top:250px; left:48%;padding:20px; border:3px solid #627AAD;display:none
+}
+
+/*
+logged in users
+
+*/
+#logged-details{
+	padding:3px; margin: 0px
+
+}
+
+
+
+
+
+
+

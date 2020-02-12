@@ -1,0 +1,30 @@
+#outerDiv{
+	position: relative;
+	min-height: 340px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#selectDiv{
+	position: relative;
+	width: 960px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	padding-left: 30px;	
+	margin-bottom: 10px;
+}
+#tableDiv{
+	position: relative;
+	display: none;
+}
+#dataTable{
+	border: 1px solid #ccc;
+	width: 961px;	
+}
+#dataTable tr{
+	text-align:center;
+	height: 25px;
+}
+#submitmsg{
+	position: relative;
+	display: none;
+}

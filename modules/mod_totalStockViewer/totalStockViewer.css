@@ -1,0 +1,149 @@
+#totalStockDiv {
+	position: relative;
+	width: 940px;
+	left: 10px;
+	min-height: 320px;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	border: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#selectArea {
+	border: 1px solid #ccc;
+	height: 135px;
+	padding-top: 15px
+}
+#internalButton{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	background: #969696;
+	left: 240px;
+	border: 1px solid #646464;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 10px #646464;
+	-webkit-box-shadow: 0px 0px 10px #646464;
+	font-size: 17px;
+	color: #003300;
+	font-weight: bold;
+	
+}
+#internalButton:hover{
+	background:#627AAD;
+	color : #fff;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	font-size: 20px;
+	font-weight: bold;
+	cursor:pointer;
+}
+#externalButton{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	background: #969696;
+	left: 250px;
+	border: 1px solid #646464;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 10px #646464;
+	-webkit-box-shadow: 0px 0px 10px #646464;
+	font-size: 17px;
+	color: #003300;
+	font-weight: bold;
+}
+#externalButton:hover{
+	background:#627AAD;
+	color : #fff;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	font-size: 20px;
+	font-weight: bold;
+	cursor:pointer;
+}
+#totalButton{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	background: #969696;
+	left: 260px;
+	border : 1px solid #646464;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 10px #646464;
+	-webkit-box-shadow: 0px 0px 10px #646464;
+	font-size: 17px;
+	color: #003300;
+	font-weight: bold;
+}
+#totalButton:hover{
+	background:#627AAD;
+	color : #fff;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	font-size: 20px;
+	font-weight: bold;
+	cursor:pointer;
+}
+#graphAreaTotal{
+	position: relative;
+	top:10px
+}
+hr{
+	height: 2px;background: #627AAD
+}
+.tdClass{
+border:1px solid #627AAD;
+text-align: center;
+}
+.head{
+background: #627AAD;color:#fff
+}
+
+#graph2Total{
+	position: relative;
+	z-index: 20000; 
+	width: 900px; 
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+#graph3Total{
+	position: relative;
+	z-index: 20000; 
+	width: 900px; 
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+#graph1Total{
+	position: relative;
+	z-index: 20000; 
+	width: 900px; 
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 375px;
+}
+#seasonArea{
+	position: relative;
+	top: 20px;
+	left: 332px;
+	font-weight: bold;
+	font-size: 16px;
+}

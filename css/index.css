@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body{
+	background: url(../images/backgrounds/bg_2.jpg) no-repeat;margin: 0px;
+}
+h3{
+	padding:3px; margin: 0px;font-size:18px;font-family:  fantasy  ;font-weight: bolder;
+}
+p{
+	padding:3px; margin: 0px;
+}
+hr{
+	border: 1px solid #ccc;
+}
+div#login-div {
+position: relative;
+float: left;
+left: 2%;
+top: 380px;
+width: 350px;
+height: 180px;
+background: black;
+opacity: 0.7;
+border-radius: 12px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+box-shadow: 0px 3px 5px black;
+-moz-box-shadow: 0px 3px 5px #000;
+-webkit-box-shadow: 0px 3px 5px black;
+color: white;
+font-weight: bolder;
+padding: 3px 10px 0px 10px;
+font-size: 14px;
+border: 3px solid #CCC;
+cursor: pointer
+}
+
+
+div#login-div  table{
+	font-family:monospace;font-size: 14px;color:#fff;text-shadow: 1px 0px 2px #000
+}
+
+div#login-div  table td{
+	padding:2px
+	
+}
+div#login-div  table input[type='text'],input[type='password']{
+	padding:6px; border:1px solid #ccc;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+	font-weight: bold
+}
+
+div#login-div  table input[type='submit']{
+		padding:6px; border:2px solid #ccc;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+		background: #000;width:70px; font-size:14px; color:#fff;font-weight: bold; cursor: pointer;
+}
+

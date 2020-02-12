@@ -1,0 +1,12 @@
+.dumps
+.project
+config.php
+.externalToolBuilders/
+.htaccess
+logfile.log
+modules/mod_insertionData/ajax/uploads/
+modules/mod_smallFruitInsertion/ajax/uploads/
+files/users/avatars/
+.settings/
+.buildpath
+

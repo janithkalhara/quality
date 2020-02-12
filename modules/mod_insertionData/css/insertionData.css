@@ -1,0 +1,115 @@
+
+input [type="text"]{
+	border:1px solid #ccc !important;padding: 4px
+	}
+
+#topPane{position:relative;border:1pt solid #999;z-index:0;padding:5px}
+
+#indexContainer{position:relative;width:210px;height:730px;border:1px solid #999;float:left;left:-270px;margin:5px}
+#sliderContainer{
+	position:relative;
+	width:770px;
+	height:685px;
+	border:1px solid #999;
+	left:210px;
+	padding-left:0px;
+	padding-top:1px;
+	overflow:hidden;
+	top:-738px;
+	margin:5px 5px -740px;
+	z-index: 100}
+.action-panel{
+	margin-left: 216px;
+	padding: 8px;
+}
+	
+#buttonWrapper{position:relative;float:left;height:40px;width:260px;top:-30px;left:640px}
+.FixedDataTable{background:#fff;border:1px solid #333;margin:auto;padding:4px}
+.FixedDataTable td{height:22px;padding:4px}
+.rowspanned{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);transform:rotate(-90deg);font-weight:700}
+.datatablemain{background:#fff;border:1px solid #333}
+.datatablemain td{width:30px;height:20px;padding:0}
+.datatablemain input{
+	height:15px;
+	width:60px;
+	background:transparent;
+	border:1px solid #ccc;
+	
+	}
+.datatabel-sum{border:1px solid #333;margin:5px;padding:5px}
+.datatable-side{
+	background:silver;
+	border-collapse:collapse; 
+	font-size: 12px
+	}
+	.datatable-side td{
+		padding-left:3px
+			}
+#showSug{position:absolute;width:158px;min-height:30px;background-color:#ccc;left:280px;top:325px;z-index:10400;display:none;border:2px solid #646464;padding:2px}
+#showSug li{padding-left:6px}
+#showSugCenter{position:absolute;width:160px;min-height:30px;background-color:#ccc;left:560px;top:317px;z-index:10000;display:none;-border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;border:2px solid #646464;padding:2px}
+.centerName{font-weight:400;font-size:14px}
+#inner-1{position:relative;width:400px;height:280px;float:right;top:-254px}
+#inner-2{position:relative;width:400px;height:280px;float:left;top:-127px}
+#inner-3{position:relative;width:400px;height:280px;float:right;top:-300px}
+#inner-4{position:relative;width:400px;height:280px;float:left;top:-218px}
+.datatable-sum{height:150px;padding:5px}
+.datatable-sum td{height:20px;border:1px solid #ccc;width:150px}
+.datatable-sum input[type='text']{height:16px;width:80px;padding:0;border:1px solid #ccc}
+.datatable-sum .highlight-insertion{
+	
+	color:#000;margin: 0px;padding: 0px;
+	}
+.datatable-sum .button{height:20px;font-size:12px!important;z-index:10200;position:relative;top:1010px;width:120px;cursor:pointer}
+#transportCondition{
+	position:relative;
+	z-index:40000;
+	width:500px;height:220px;
+	background:#fff;top:10px;
+	border:2px solid #fff;
+	-moz-box-shadow:0 0 8px #000;
+	-webkit-box-shadow:0 0 8px #000;
+	box-shadow:0 0 8px #000;font-size:12px;
+	margin:6px;padding:5px
+	}
+	#transportCondition table{
+	border-collapse: collapse;
+
+}
+#transportCondition table td{border:1px solid #333;background:#ccc;padding:2px}
+#transportCondition-link{position:relative;top:10px;color:#fff;cursor:pointer;background:#3B5998;margin:5px 0 5px 5px;padding:4px}
+#close-link{color:#A52A2A;
+	cursor:pointer;height:24px;width:24px;
+	padding:4px;background: url(../images/close_tp.png) no-repeat;position: relative;top:-180px;
+	float: right;right:-24px}
+#imageuploader-link{position:relative;top:30px;color:#fff;cursor:pointer;background:#3B5998;margin:5px 0 5px 5px;padding:4px}
+#imageUploaderDiv{position:relative;z-index:40000;width:500px;height:230px;background:#fff;top:40px;border:2px solid #fff;-moz-box-shadow:0 0 8px #000;-webkit-box-shadow:0 0 8px #000;box-shadow:0 0 8px #000;margin:6px;padding:5px}
+#imageUploaderDiv p.header{font-size:12px;font-weight:700;background:#ccc;padding:3px}
+.buttons-{background:#3B5998;color:#fff;padding:5px;height:30px}
+#loading-div{display:none;position:absolute;height:1200px;width:1000px;background:#000;z-index:50000;opacity:0.8}
+#loading-div img{position:relative;float:inherit;left:50%;top:50%}
+#butOne,#butTwo,#butThree,#butFour{position:relative;width:50px;height:30px}
+#butOne:hover,#butTwo:hover,#butThree:hover,#butFour:hover{position:relative;width:50px;height:30px;cursor:pointer}
+.suglist,.sugCenterlist{position:relative;padding-top:10px;height:30px;background:#ccc;border-bottom:1px solid #000;list-style:none}
+.suglist:HOVER,.sugCenterlist:HOVER{position:relative;padding-top:10px;height:30px;background:#646464;border-bottom:1px solid #000;color:#fff;cursor:pointer}
+
+#ui-datepicker-div{ font-size: 12px}
+
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+
+#centerTable{
+	width:570px;
+	display:none;
+	top:-147px;
+	left:417px;
+	position:relative;
+	text-align: center;
+	z-index:1000000;
+	background-color:#fff;
+	border-collapse:collapse}
+#centerTable input{background-color: #fff;border:1px solid #ccc}

@@ -1,0 +1,28 @@
+@media print 
+ {
+ p { font-size: 14px; padding: 2px ;margin: 0px}
+ h1 { font-size: 14pt; }
+ /* h2 { font-size: 12pt; } */
+ .header{width:100%}
+ .left{
+	float: left;
+	
+}
+.right{
+	float: left;
+	
+}
+.bar{
+	width:100%;clear:both
+}
+#valueTable{
+	width:100%
+}
+
+#letterArea{
+	border:1px solid #ccc; border-radius:8px;padding: 4px
+}
+
+fieldset {
+	height: 140px;
+}

@@ -1,0 +1,142 @@
+#selectTable{
+	position: relative;
+	width : 940px;
+	border : 1px solid #ccc;
+	-webkit-border-radius : 7px;
+	-moz-border-radius : 7px;
+	-border-radius : 7px;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right:5px;
+	font-size: 14px;
+}
+#outerDiv{
+	position: relative;
+	min-height: 320px;
+	margin-left : 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#startDate{
+	
+}
+#endDate{
+	
+}
+
+#selectTable input{
+	width : 125px;
+	margin-right : 12px;
+}
+
+#selectTable select{
+	width : 125px;
+	margin-right : 10px;
+}
+
+#tableDiv{
+	position: relative;
+	z-index: 200; 
+	width: 995px; 
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	min-height: 170px;
+	margin-left: -20px;
+	margin-right: -40px;
+	display: none;
+}
+hr{
+	height: 2px;
+	background: #627AAD;
+	border: 1px solid #666666; 
+	margin-bottom: 10px;
+}
+#dataTable{
+	width : 995px;
+	margin-bottom: 10px;
+}
+
+
+#dataTable th{
+	background-color: #627AAD;
+	font-weight: bold;
+}
+#dataTable tr{
+	background-color: #ccc;
+	font-size: 14px;
+}
+#dataTable td{
+	width : 400px;
+	text-align: center;
+}
+
+#dataTable2{
+	width : 995px;
+}
+#dataTable2 th{
+	background-color: #627AAD;
+	font-weight: bold;
+}
+#dataTable2 tr{
+	background-color: #ccc;
+	font-size: 14px;
+}
+#dataTable2 td{
+	width : 400px;
+	text-align: center;
+}
+
+/* show suggetions */
+
+#showSug{
+position: absolute;
+min-width: 150px;
+min-height: 35px;
+background-color: #ccc;
+left: 612px;
+top:270px;
+z-index: 110000;
+display: none;
+padding-left: 2px;
+padding-top: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
+border: 2px solid #646464;
+
+}
+
+#showSug li{ padding-left: 6px }
+
+.suglist{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#ccc;
+border-bottom: 1px solid #000;
+list-style: none;
+}
+.suglist:HOVER{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#646464;
+border-bottom: 1px solid #000;
+color: #fff;
+cursor: pointer;
+}
+#printButton{
+border: 1px solid #000;
+padding: 5px;
+margin-bottom: 30px;
+padding-bottom :20px;
+
+}
+#printButton:hover{
+cursor: pointer;
+}
+#printArea{
+position: relative;
+left: 850px;
+top: 30px;
+display: none;
+}

@@ -1,0 +1,210 @@
+#supplierNamesView {
+	position: relative;
+	width: 400px;
+	left: 300px;
+	min-height: 320px;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	border: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.supplierNames {
+	position: relative;
+	left: 100px;
+	font-size: 16px;
+	margin-bottom: -20px;
+	width: 250px;
+	top: -25px;
+	padding: 2px
+}
+
+.supplierNames:hover {
+	color: #fff;
+	cursor: pointer;
+	background: #627AAD;
+	font-weight: bold;
+}
+
+.imgDiv {
+	position: relative;
+	left: 80px;
+	top: -5px
+}
+
+#supplierProfile {
+	position: relative;
+	width: 940px;
+	left: 10px;
+	min-height: 320px;
+	-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 20px #646464;
+	-webkit-box-shadow: 0px 0px 20px #646464;
+	border: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: none;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#profPic {
+	position: relative;
+	border: 1px solid #000;
+	width: 120px;
+	height: 120px;
+	top: 5px;
+	left: 5px;
+}
+
+.trValidater {
+	padding: 0;
+	margin: 0;
+	height: 30px;
+	font-size: 14px;
+}
+
+#centerName {
+	position: relative;
+	top: -245px;
+	left: 400px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#centerView {
+	position: relative;
+	top: -265px;
+	left: 460px;
+	font-size: 14px;
+	width: 530px;
+	height: auto;
+}
+
+ul#centerDiv {
+	position: relative;
+	width: 530px;
+	height: 120px;
+}
+
+ul#centerDiv li {
+	text-align: left;
+	float: left;
+	list-style: none;
+	height: 25px;
+	width: 137px;
+	padding-right: 25px;
+}
+
+ul {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#gradeDiv {
+	position: relative;
+	z-index: 10;
+}
+
+#subGrade {
+	position: relative;
+	z-index: 11
+}
+
+.tdClass {
+	border: 1px solid #627AAD;
+	text-align: center;
+}
+
+.head {
+	background: #627AAD;
+	color: #fff
+}
+
+#graphArea {
+	position: relative;
+	top: 10px
+}
+
+#detailsArea {
+	border: 1px solid #ccc;
+	height: 135px;
+}
+
+#graph2 {
+	position: relative;
+	z-index: 20000;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+
+#graph3 {
+	position: relative;
+	z-index: 20000;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+
+#graph1 {
+	position: relative;
+	z-index: 20000;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #ccc;
+	padding: 5px;
+	height: 370px;
+}
+
+hr {
+	height: 2px;
+	background: #627AAD
+}
+
+#backButton {
+	float: right;
+	background: #fff;
+	color: #000;
+	width: 100px;
+	border: 1px solid #000;
+	height: 25px;
+	font-size: 17px
+}
+
+#backButton:hover {
+	background: #646464;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+#innerDiv {
+	background: #ccc;
+	width: 150px;
+	height: 25px;
+}
+
+.dropDownMenu {
+	display: none;
+	position: relative;
+	left:120px;
+	padding: 1px;
+	border : 1px solid #ccc;
+	margin-bottom: 10px;
+	width:120px;
+	 
+}

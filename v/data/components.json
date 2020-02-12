@@ -1,0 +1,9 @@
+[
+	{"id":1,"name":"default","access":3},
+	{"id":2,"name":"insert","access":3},
+	{"id":3,"name":"sign","access":3},
+	{"id":4,"name":"user","access":3},
+	{"id":4,"name":"notif","access":3},
+	{"id":4,"name":"graph","access":3}
+	
+]

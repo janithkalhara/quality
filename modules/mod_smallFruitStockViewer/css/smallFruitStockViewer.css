@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+#report-wrapper{position: relative; min-height:400px; height:auto;}
+
+#report-wrapper input{ background:#627AAD;color:#fff;font-weight:bold;border:1px solid #fff;cursor:pointer}
+
+#window{width:1000px; background: #fff;position:absolute;top:100px;z-index: 200000;
+        -moz-box-shadow:0 0 12px #000;
+        -webkit-box-shadow:0 0 12px #000;
+        box-shadow:0 0 12px #000;
+        border:4px solid #333;display: none;margin: 0px auto;
+}
+ #toolbar{position:absolute;top:-72px;width:1072px;
+            height: 60px;
+            background:#fff; 
+           
+            border:2px solid #333;
+            
+            }
+
+ #toolbar h3{ float: left; padding-left: 10px;font-size: 20px;background:#ccc;width:890px;margin:5px; none;color:#333; position: relative;top:10px}
+ #toolbar ul{ position: relative;float: right; right: 10px;list-style:none}
+ 
+  #toolbar ul li{ list-style-type: none;float: left;padding:4px ; 
+        border: 2px solid #999;margin: 4px;z-index: 2000; 
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px; cursor: pointer;
+ } 
+ #toolbar ul li p{ float: left; position: relative;
+ }
+  #toolbar ul img{ height:30px; width:30px; margin: 0px;}
+ 
+.datatable{width:95%; margin: 0 auto 5px auto;}
+.datatable input{ background: #fff}
+.datatable td{padding: 5px;background: #ccc} 
+
+/* overwriting ui css*/
+
+.ui-state-error{ padding: 5px 10px 5px 10px}
+
+#imageArea{
+position: absolute;width:700px;height:350px; border: 1px solid #999;top:150px;left:30%;z-index: 5000; background: #fff
+
+
+}
+
+#imageArea .header{
+	padding: 5px; background:#627AAD; color: #fff
+
+}
+#imageArea table td{
+width: 200px;
+height: 80px}
+#imageArea img{ 
+	border: 3px solid #fff;
+ -moz-box-shadow:0 0 12px #000;
+        -webkit-box-shadow:0 0 12px #000;
+        box-shadow:0 0 12px #000;height: 160px;width:180px
+}
+#imageArea p{font-size: 16px;
+}
+
+#imageArea .description{
+width:18px
+
+}
+#imageArea p#close-imagearea-button{
+	position: absolute;
+	background: url(../images/closebutton.png) no-repeat;
+	top: 0px;
+	right: -10px;
+	float: right;
+	color: maroon;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;z-index: 100
+}
+#printables-wrapper{
+	margin: auto;border: 1px solid #ccc;padding: 4px;background: #fff;width:870px;left:10px
+
+}
+
+#printable-bsheet{
+	position: relative;width:870px; background: #fff;top:0px
+
+
+
+}	
+	
+#printable-qreport{
+position: relative;width:870px; background: #fff;top:0px
+}
+#printer-toolbar{
+	height: 80px; width: 860px;top:-100px; z-index: 500; background: #000;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	border: 2px solid #fff;color:#fff; padding: 8px
+
+}
+#printer-toolbar h4{
+float: left;
+}
+#printer-toolbar ul{
+
+	list-style: none;float: right;
+}
+#printer-toolbar ul li{
+
+    list-style-type: none; float: right;padding:2px; margin: 4px;cursor: pointer;
+}
+#printer-toolbar img{
+
+   border: 1px solid #fff;padding: 4px
+}
+ 
+#printer-toolbar ul li p{
+
+    margin: 0px; 
+}
+
+.img-view-button{
+	background: url(../images/view.png) no-repeat center left #627AAD!important; padding:4px 25px;background-position: 8px 3px!important;
+		border-radius:8px;
+}
+.delete-button{
+		background: url(../images/delete.png) no-repeat center left #627AAD!important; padding:4px 25px;background-position: 8px 3px!important;
+		border-radius:8px;
+}
+
+	

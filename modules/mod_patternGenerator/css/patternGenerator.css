@@ -1,0 +1,384 @@
+@CHARSET "UTF-8";
+hr{
+	margin: 5px 0px 10px 0px
+}
+h4{ 
+	color:#082850;
+}
+
+strong{
+	color: #616B73
+}
+fieldset{
+    margin:10px; 
+}
+#table-header-plandata{
+	
+}
+/* revision data form*/
+
+#printTable1{
+    width: 950px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+#printTable1 tr{
+    text-align: center;
+}
+#revisionSelector{
+    display: none;
+}
+#weekButton{
+    border: 1px solid #000;
+    height: 25px;
+    padding: 5px;
+    display:none;
+    margin-top: 5px
+}
+#weekButton:hover{
+    cursor: pointer;
+}
+#submitButton{
+    position: relative;
+    width: 100px;
+    border : 1px solid #000;
+    padding: 5px;
+    height: 25px;
+    display: none;
+
+}
+
+/*end revision dataform*/
+
+#table-header-plandata td{
+	width:180px
+}
+
+#body-plandata{
+	
+}
+#body-plandata{
+	
+}
+#table-body-plandata{
+	margin-top:10px;
+	width:100%;
+	position: relative;
+	overflow: visible;z-index: 1000
+
+}
+#table-body-plandata td{
+    padding:2px 5px 2px 5px
+
+}
+#table-body-plandata td.header{
+    text-align: center;
+    font-size:12px ;
+    font-weight: bold
+
+}
+#table-body-plandata td p{
+    color: #394AC7
+
+}
+#table-body-plandata input{
+	width:50px;
+	}
+#controls-plandata input.buttons-submit{
+	height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+	font-size:14px;cursor:pointer
+
+}
+#controls-plandata{
+	margin-top: 15px;
+}
+#controls-plandata input.buttons-reset{
+    height:30px;
+    padding: 5px 5px 5px 25px; 
+    background: url(../images/reset.png) no-repeat #3B5998;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer
+
+}
+/*editables*/
+
+#table-header-plandata-editable{
+    position: relative;
+    width:60%;margin:5px;background:rgba(0, 0, 0, .09)
+}
+#table-header-plandata-editable td{
+   padding: 5px
+}
+#table-header-plandata-editable-weeks{
+	position: relative;
+    width:100%;
+    margin:5px;
+    background:rgba(0, 0, 0, .09)
+}
+
+#table-header-plandata-editable-weeks td{
+    
+    padding: 5px;font-size: 12px;
+}
+#table-header-plandata-editable-weeks td p{
+    color: #394AC7
+}
+#controls-plandata-editable{
+	position: relative;
+	float: left;
+	width:100%;
+	padding: 5px; 
+	border: 1px solid #ccc;
+	
+}
+#controls-plandata-editable a{
+	position:relative;float:left;
+	color: #fff;
+	padding: 2px 20px 2px 5px; 
+	font-size:12px;
+	cursor:pointer; 
+	height: 20px; 
+	margin:5px;  
+	background: #3B5998;
+	z-index: 10000;
+}
+
+/*rates data form*/
+
+#crop-rate-manager{
+	width: 100%;
+	min-height:200px
+}
+#acre-crop-rate-manager{
+   position:relative;
+    min-height:200px
+}
+#crop-rate-manager form{
+	position:relative;
+	float:left;
+    width: 400px;
+   
+}
+#crop-rate-manager input.buttons-submit{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+#crop-rate-manager input.buttons-reset{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/reset.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+
+}
+
+#view-rates-data{
+	width:500px;
+	min-height: 200px;
+	float: right;
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 5px;top:-50px
+	
+}
+#view-rates-data a{
+	
+	background:#1D4088; padding: 2px 20px 2px 4px;float: right
+}
+
+#rates-rates-data{
+	
+}
+
+#acre-crop-rate-manager{
+	position: relative;
+}
+#acre-crop-rate-manager > #leftpanel {
+	position: relative;float: left;
+	width:450px;margin-right:30px;border-right:1px solid #ccc;  
+}
+#acre-crop-rate-manager > #rightpanel {
+    position: relative;float: left;
+    width:350px;
+}
+#acre-crop-rate-manager > #rightpanel>#controller a {
+    position:relative;float:right;
+    color: #fff;
+    padding: 2px 20px 2px 5px; 
+    font-size:12px;
+    cursor:pointer; 
+    height: 20px; 
+    margin:5px;  
+    background: #3B5998;
+}
+#acre-crop-rate-manager > #leftpanel input.buttons-submit{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+#acre-crop-rate-manager > #leftpanel input.buttons-reset{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/reset.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+
+}
+#acre-crop-rate-manager > #rightpanel input.buttons-submit{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+#acre-crop-rate-manager > #rightpanel input.buttons-reset{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/reset.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+
+}
+
+/*week crop data*/
+
+#week-cropdata-container{
+	
+}
+#week-cropdata-container .legend{
+    
+    padding: 5px; border: 2px solid #ccc;
+}
+#target-week-cropdata-container table{
+	width:100%
+}
+#target-week-cropdata-container table td.header{
+   font-weight: bold;
+   color:#3B5998
+}
+#target-week-cropdata-container table input{
+    width:60px
+}
+#controller-week-cropdata-container input.buttons-submit{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+#controller-week-cropdata-container input.buttons-reset{
+    height:30px;padding: 5px 5px 5px 25px; background: url(../images/reset.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+
+}
+
+#view-week-cropdata-container{
+	
+}
+
+#view-week-cropdata-container .legend{
+    
+    padding: 5px; border: 2px solid #ccc;
+}
+#view-week-cropdata-container table{
+	width:100%
+}
+#view-week-cropdata-container table a.action{
+    padding:2px 5px 2px 5px; background: #3B5998; cursor: pointer;color: #fff;margin: 2px
+}
+#view-week-cropdata-container table td{
+	padding: 5px;
+}
+#view-week-cropdata-container table td.header{
+    font-weight: bold;color: #3B5998
+}
+
+/*revision data form*/
+
+div#revision-data-cantainer{
+	
+}
+
+div#revision-data-cantainer legend.legend{
+    padding: 5px; border: 2px solid #ccc;color: #3B5998;font-weight: bold
+} 
+div#revision-data-cantainer table.selector{
+	width: 70%
+}
+
+#table-latest-revision{
+	margin:0px 0 10px 0px;
+	width:100%
+
+}
+#table-latest-revision input.buttons{
+   
+
+}
+
+
+
+#table-latest-revision td.header{
+	font-weight: bold;
+	
+}
+#table-latest-revision td.header p{
+    color: #3B5998
+    
+}
+#view-plan-data{
+	
+}
+ input.buttons{
+	 padding:2px 5px 2px 5px; 
+    background: #3B5998; 
+    cursor: pointer;
+    color: #fff;
+    margin: 2px ;
+    height: 30px
+    
+}
+#data-table-revision{
+	width: 100%
+}
+
+#data-table-revision td.header{
+    font-weight: bold;
+    
+}
+#data-table-revision td.header p{
+    color: #3B5998
+    
+}
+#revision-number-selector{
+	width:60px
+}
+#add-number-selector{
+    width:60px
+}
+#edit-revision-data{
+	
+}
+#edit-revision-data table{
+	
+}
+#edit-revision-data table td input{
+    width:50px
+}
+#controllers-revision-data input.button-submit{
+	height:30px;padding: 5px 5px 5px 25px; background: url(../images/submit.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+
+#controllers-revision-data input.button-reset{
+	height:30px;padding: 5px 5px 5px 25px; background: url(../images/reset.png) no-repeat #3B5998;color:#fff;
+    font-size:14px;cursor:pointer
+}
+
+#leftpanel{}
+
+#leftpanel #table{}
+#leftpanel #table table{
+width:100%}
+#leftpanel #table table td{padding:5px;text-align: center;}
+#leftpanel #table table td.header{font-weight: bold;}
+#gradeShare-edit-table{
+	
+}
+#gradeShare-edit-table table{
+    width: 100%
+}
+#gradeShare-edit-table table td{
+    padding:5px;text-align: center;
+}
+#gradeShare-edit-table table td.header{
+    font-weight: bold;
+}
+
+
+

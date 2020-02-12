@@ -1,0 +1,354 @@
+@CHARSET "UTF-8";
+#topPaneSmall{ position: relative;padding:5px;border:1pt solid #999; z-index: 0;}
+#wrapper-insertion{
+    position: relative;background: #fff; height:auto;width:1000px
+}
+#headertable {position: relative;border:1px solid #627AAD;margin: 2px;font-weight:bold
+}
+#headertable table{ width:800px;position: relative; }
+#headertable table { padding: 3px;border-collapse: collapse;}
+#headertable table td p{ position: relative;float: right;margin-right:4px }
+#headertable input{ height: 20px; padding: 4px;border:1px solid #ccc ; background: #fff;margin:3px; }
+#navigator{
+	position: relative;
+	background: #fff;
+	height:35px;
+	z-index:10; 
+	border:1px solid #627AAD;width:100%
+}
+#navigator ul {
+    position: relative;background: #ccc;float: left; width:270px;padding: 2px
+}
+#navigator ul li {
+    position: relative;background: #ccc; float: left; list-style-type: none;margin: 2px
+}
+#navigator #indexer{
+    font-size: 14px; float: left;position: relative;padding: 5px;font-weight: bold;
+}
+#navigator #controller-div{
+	position: relative;float: left;width:450px;left: 15px
+}
+#navigator #controller-div #show-balanceSheet{
+    position: relative;
+    border: 1px solid #3B5998;
+    height: 25px;
+    font-weight: bold;
+    width: 200px;cursor: pointer;
+    background: url("../images/showBSheet.png") no-repeat #ccc;margin: 4px
+}
+#navigator #controller-div #export-balanceSheet{
+    position: relative;
+    border: 1px solid #3B5998;
+    height: 25px;
+    font-weight: bold;
+    width: 240px;z-index: 1000;padding-left:32px;
+    background: url("../images/add_sheet.png") no-repeat #ccc;cursor: pointer;
+}
+#slider-wrapper{
+	position: relative;width:1000px;background: #ccc;overflow: hidden;
+}
+#sliderContainerSmall{position: relative;width:1000px;border: 1px solid #999;height:460px;;overflow:hidden;
+padding-top:1px;background: #999}
+#sliderContainerSmall table{
+	width:997px; border: 1px solid #627AAD;background: #fff
+}
+#sliderContainerSmall table .indexes{
+   /* background: #627AAD;color: #fff*/
+   border: 1px solid  #627AAD;padding-left: 10px
+}
+.header1 ,.header2,.header3,.header4{
+    background: #aaaaaa;
+    color: #000000
+}
+.header5 ,.header6,.header7,.header8{
+    background: #444444 ;
+    color: #fff
+}
+.crs1,.crs2{
+  background: #CDCFC6;
+  color: #000000
+}
+.crs3,.crs4,.crs5,.crs6,.crs7{
+	background: #aaaaaa;
+    color: #000000
+}
+.crs8,.crs9,.crs10{
+    background: #444444 ;
+    color: #fff
+}
+#sliderContainerSmall table .indexes p{
+   float:left;left:25px
+}
+#sliderContainerSmall table td{
+	padding: 0px;
+	height:18px
+}
+#sliderContainerSmall input{
+	width: 50px;
+	padding: 1px;
+	background: white;
+	height: 20px;
+	border: 1px solid #CCC;
+}
+#sliderContainerSmall input[type="checkbox"]{
+	padding: 0px;
+	width: auto;
+	height: 16px;
+	margin-top: 7px;
+	margin: 5px;
+}
+#sliderContainerSmall #CRSTable{
+    width:1000px;overflow: scroll;
+}
+#CRSTable .indexes{
+ width:150px
+}
+#CRSTable td{
+    width:30px;height:20px
+}
+#CRSTable input{
+    width:45px;border:1px solid #ccc;
+}
+#CRSTable .sum{
+	border: 1px solid #627AAD; 
+}
+#buttonWrapperSmall{
+	position: relative;float:left;height: 40px; width:260px; top:-30px;left:640px;
+}
+#setAccepted{
+	position:relative;background:#627AAD; color: #000000;height: 40px; width:150px;padding: 5px; margin-top:34px ; cursor: pointer;
+	top:12px ;left:5px;border: 1px #fff inset; color: #fff
+}
+.datatablemain {background: #fff;border: 1px solid #333; }
+.datatablemain td{ width:60px; height:40px; padding: 0px}
+.datatablemain input{ height:22px ; width:60px;background:transparent;}
+.datatabel-sum{ border: 1px solid #333; margin:5px;padding: 5px }
+#butOneSmall{
+position: relative; width: 50px; height: 30px;
+}
+#butOneSmall:hover{
+position: relative; width: 50px; height: 30px;cursor: pointer;
+}
+#butTwoSmall{
+position: relative; width: 50px; height: 30px;
+}
+#butTwoSmall:hover{
+position: relative; width: 50px; height: 30px;cursor: pointer;
+}
+#butThreeSmall{
+position: relative; width: 50px; height: 30px;
+}
+#butThreeSmall:hover{
+position: relative; width: 50px; height: 30px;cursor: pointer;
+}
+#butFourSmall{
+position: relative; width: 50px; height: 30px;
+}
+#butFourSmall:hover{
+position: relative; width: 50px; height: 30px;cursor: pointer;
+}
+#butFiveSmall{
+position: relative; width: 50px; height: 30px;
+}
+#butFiveSmall:hover{
+position: relative; width: 50px; height: 30px;cursor: pointer;
+}
+.datatable-side{ background: #C0C0C0 }
+#showSug{
+position: absolute;
+width: 175px;
+min-height: 35px;
+background-color: #ccc;
+left: 272px;
+top:280px;
+z-index: 10400;
+display: none;
+padding-left: 2px;
+padding-top: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
+border: 2px solid #646464;
+}
+#showSug li{ padding-left: 6px }
+.suglist{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#ccc;
+border-bottom: 1px solid #000;
+list-style: none;
+}
+.suglist:HOVER{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#646464;
+border-bottom: 1px solid #000;
+color: #fff;
+cursor: pointer;
+}
+#showSugCenter{
+position: absolute;
+width: 175px;
+min-height: 30px;
+background-color: #ccc;
+left: 480px;
+top:320px;
+z-index: 1000002;
+display: none;
+-border-radius: 7px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+padding-left: 2px;
+padding-top: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
+border: 2px solid #646464;
+}
+.sugCenterlist{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#ccc;
+border-bottom: 1px solid #000;
+list-style: none;
+}
+.sugCenterlist:HOVER{
+position:relative;
+padding-top:10px;
+height:30px;
+background:#646464;
+border-bottom: 1px solid #000;
+color: #fff;
+cursor: pointer;
+}
+.centerName{
+    font-weight: normal;
+    font-size: 14px;
+}
+#inner-1{position: relative;width:400px;height:280px;float:right;top:-254px}
+#inner-2{position: relative;width:400px;height:280px;float:left;top:-127px}
+#inner-3{position: relative;width:400px;height:280px;float:right;top:-300px}
+#inner-4{position: relative;width:400px;height:280px; float:left;top:-218px}
+#transportCondition{  
+   position: relative;z-index: 40000; width:500px; height:250px; background: #fff; ;padding: 5px; 
+	border: 1px solid #333; margin: 6px; top:10px;border:2px solid #fff;-moz-box-shadow:0 0 8px #000;
+	-webkit-box-shadow:0 0 8px #000;box-shadow:0 0 8px #000;
+}
+#transportCondition table td{
+    padding: 5px; border: 1px solid #333;background: #ccc
+}
+#transportCondition-link{ 
+	margin: 5px 0 5px 5px; 
+	position:relative;
+	top:10px; 
+	color:#fff;
+    cursor: pointer; 
+    padding: 2px 4px 2px 32px; 
+    width:200px; 
+    background:  url("../images/transport.png") no-repeat #3B5998;
+    z-index: 20000;
+    height: 20px
+    }
+#close-link{ padding: 4px; color:brown; cursor: pointer;}
+#imageuploader-link{
+	position: relative;
+	float:left;
+	left:250px;
+	top:-24px;
+    margin: 5px 0 5px 5px; 
+    color:#fff; 
+    cursor: pointer;
+    background:url("../images/images-24.png") #3B5998 no-repeat; 
+    padding: 2px 4px 2px 32px;
+    width:200px;
+    height: 20px
+}
+#imageUploaderDiv{   
+	  position: relative;
+	  float:left;
+	  z-index: 40000; 
+	  width:500px; 
+	  background: #fff; 
+	  padding: 5px; 
+      border: 1px solid #333; 
+      margin: 6px; 
+      border:2px solid #fff;
+      -moz-box-shadow:0 0 8px #000;
+      -webkit-box-shadow:0 0 8px #000;
+      box-shadow:0 0 8px #000;
+}
+#imageUploaderDiv p.header{
+	font-size: 12px;font-weight: bold;padding:3px; background: #ccc
+}
+.buttons-{
+background: #3B5998; padding: 5px;color:#fff;height:30px
+}
+#balanceSheetDiv{
+    position: absolute;
+    background-color : #fff;
+    top : 436px;
+    left: 180px;
+    z-index: 100000;
+    display: none;
+}
+#printContainer{position:absolute;top:10px
+}
+#wrapperDiv{
+	position: relative;
+    width:960px; 
+    padding:10px;
+    border: 1px solid #ccc;
+    display: block;
+    background-color : #fff;
+    z-index: 10000;
+}
+#wrapperDiv table{
+	border-collapse:collapse;
+}#wrapperDiv table td{
+	border-collapse:collapse;
+}
+input.tdDiv{
+    width:80px;
+    margin:0; 
+    padding:2px;
+    background:#fff;
+    font-size:12px;
+    vertical-align: center;
+}
+tr.thDiv{
+    background: #627AAD;
+    color: #fff;
+}
+.buttons{
+ }
+#resetMe{ background: url("../images/reset.png") no-repeat  #3B5998;}
+#printMe{ background: url("../images/print.png") no-repeat  #3B5998;}
+
+#submitMe{ background: url("../images/submit.png") no-repeat  #3B5998;}
+
+#loading-div{display:none;
+			position:absolute; height:1300px;  width:1000px;
+           	background: #000000;z-index: 500000; opacity:0.8
+
+}
+#loading-div img{
+position:relative;float: inherit;left:50%;top:50%
+}
+#ui-datepicker-div{ font-size: 12px}
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+#tmButton{position:relative;width:100px;padding:5px;background-color:#3B5998;left:885px;top:0px;color:#fff;z-index:100002}
+#tmButton:hover{cursor: pointer;}
+#tableDiv{position:absolute;left:320px;top:0px;background-color:#fff;display:none;z-index:12001;}
+#centerTableSmall{width:570px;text-align: center;background-color:#fff;}
+#centerTableSmall input{background-color: #fff;padding:3px;margin:0px}
+div#image-upload-index{
+    display:none;position: absolute;top:250px;height:100px; width:200px;background: #ccc;border:1px solid #999;z-index:1000;left:48%
+}
+.animate-div .toolbar p{float:right;margin-right:100px; display: none; }
+.animate-div .toolbar p span{float:right;font-size: 16px; padding: 0px 10px}
+

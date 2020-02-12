@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+ul.staff{
+list-style-type: none; color:#874C09 }
+
+ul.staff li.md{
+    background: url("../images/md.jpg") no-repeat;
+    padding:10px 10px 10px 30px;;
+}
+
+ul.staff li.m{
+    background: url("../images/m.png") no-repeat;
+    padding:10px 10px 10px 30px;;
+}
+ul.staff li.gm{
+    background: url("../images/gm.png") no-repeat;
+    padding:10px 10px 10px 30px;;
+}
+
+ul.staff li.mngr{
+    background: url("../images/mngr.png") no-repeat;
+    padding:10px 10px 10px 30px;;
+}
+
+ul.staff li.asstmngr{
+    background: url("../images/asstmngr.png") no-repeat;
+    padding:10px 10px 10px 30px;;
+}
+ul.staff li.exectiv{
+    background: url("../images/exectiv.png") no-repeat;
+    padding:10px 10px 10px 30px;;
+ }
+ 
+ div#details{
+ 
+ padding-left: 20px; 
+ }  
+    
+div#details p.tele{
+	background: url("../images/phone.png") no-repeat;
+	 padding:10px 10px 10px 30px;;
+ }
+ div#details p.fax{
+    background: url("../images/fax.png") no-repeat;
+     padding:10px 10px 10px 30px;;
+ }
+ 
+ 
+  div#details p.email{
+    background: url("../images/email.png") no-repeat;
+     padding:10px 10px 10px 30px;
+ }
+ 
+   div#details p.web{
+    background: url("../images/web.png") no-repeat;
+     padding:10px 10px 10px 30px;;
+ }
+ 
+    div#details p.mail{
+    background: url("../images/mail.png") no-repeat;
+     padding:10px 10px 10px 30px;;
+ }
+ 
+ div#exp{
+ padding: 20px; border: 1px solid #2188E7; 
+ }
+   div#exp h4{
+ 
+ }
+   
+    
+    
